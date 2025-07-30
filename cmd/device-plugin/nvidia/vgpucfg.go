@@ -65,7 +65,7 @@ func addFlags() []cli.Flag {
 		},
 		&cli.StringFlag{
 			Name:  "resource-name",
-			Value: "nvidia.com/gpu",
+			Value: "nvidia.com/vgpu",
 			Usage: "the name of field for number GPU visible in container",
 		},
 	}
